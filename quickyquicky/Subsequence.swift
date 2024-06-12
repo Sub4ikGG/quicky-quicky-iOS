@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Subsequence: View {
-    @Binding var subsequence: [Number]
+    var subsequence: [Number]
     
     var body: some View {
         HStack {
@@ -20,5 +20,5 @@ struct Subsequence: View {
 }
 
 #Preview {
-    Subsequence(subsequence: Binding(get: { [999, 999, 999, 999].map({ Number(id: UUID(), value: $0, state: .NotPassed) }) }, set: {_ in}))
+    Subsequence(subsequence: [999, 999, 999, 999].map({ Number(id: UUID(), value: $0, state: .NotPassed) }))
 }

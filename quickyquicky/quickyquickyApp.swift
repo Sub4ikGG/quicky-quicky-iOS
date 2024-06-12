@@ -11,7 +11,7 @@ import SwiftUI
 struct quickyquickyApp: App {
     var body: some Scene {
         WindowGroup {
-            GameView()
+            GameScreen()
         }
     }
 }

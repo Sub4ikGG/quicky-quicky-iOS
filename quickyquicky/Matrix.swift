@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Matrix: View {
-    @Binding var matrix: [Number]
+    var matrix: [Number]
     let onClick: (Number) -> Void
     
     var body: some View {
@@ -49,5 +49,5 @@ struct Matrix: View {
 }
 
 #Preview {
-    Matrix(matrix: Binding(get: { Array((900...919)).map({ Number(id: UUID(), value: $0, state: .NotPassed) }) }, set: {_ in}), onClick: {_ in})
+    Matrix(matrix: Array((900...919)).map({ Number(id: UUID(), value: $0, state: .NotPassed) }), onClick: {_ in })
 }
