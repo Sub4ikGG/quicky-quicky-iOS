@@ -1,7 +1,7 @@
 # Quicky-Quicky iOS
 
-![IMG_6291](https://github.com/Sub4ikGG/quicky-quicky-iOS/assets/98654420/dc22f0d1-5a96-4722-8884-73bab7b67ca8)
-![IMG_6293](https://github.com/Sub4ikGG/quicky-quicky-iOS/assets/98654420/19280509-c765-4147-85d0-d52a81034b77)
+<img src="https://github.com/Sub4ikGG/quicky-quicky-iOS/assets/98654420/dc22f0d1-5a96-4722-8884-73bab7b67ca8" width="250">
+<img src="https://github.com/Sub4ikGG/quicky-quicky-iOS/assets/98654420/19280509-c765-4147-85d0-d52a81034b77" width="250">
 
 ## Description
 
